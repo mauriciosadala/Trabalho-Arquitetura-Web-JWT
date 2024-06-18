@@ -3,6 +3,9 @@
 Este projeto é uma aplicação de autenticação desenvolvida em Java utilizando o framework Spring Boot e MongoDB como banco de dados. Ele fornece serviços de autenticação e gerenciamento de usuários com diferentes níveis de permissão. O projeto também está configurado para ser executado em um contêiner Docker.
 
 ## Estrutura do Projeto
+#### https://www.figma.com/design/4gO1V9IpolLq03eogzkEYU/Untitled?node-id=0-1&t=iLFoU17CwooxU6UT-1
+![image](https://github.com/mauriciosadala/Trabalho-Arquitetura-Web-JWT/assets/125416578/15cdb105-785b-41a2-b2c4-1ecc993d25d4)
+
 O projeto está estruturado em diversos pacotes, cada um contendo classes com responsabilidades específicas:
 
 - com.example.Autenticacao: Contém a classe principal para inicializar a aplicação.
