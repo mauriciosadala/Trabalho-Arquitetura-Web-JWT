@@ -69,16 +69,16 @@ O projeto está estruturado em diversos pacotes, cada um contendo classes com re
 - Serviço para gerenciamento de usuários. Inclui operações de cadastro, deleção e consulta de usuários.
 
 ## Endpoints
-Autenticação
-POST /auth/login: Realiza o login de um usuário.
-GET /auth/user: Retorna informações do usuário autenticado.
-GET /auth/admin: Endpoint restrito para administradores.
+### Autenticação
+- POST /auth/login: Realiza o login de um usuário.
+- GET /auth/user: Retorna informações do usuário autenticado.
+- GET /auth/admin: Endpoint restrito para administradores.
 
 ## Gerenciamento de Usuários
-POST /usuario/salvar: Salva um novo usuário.
-DELETE /usuario/deletar: Deleta um usuário.
-GET /usuario/obtemTodos: Obtém todos os usuários.
-GET /usuario/obtemUsuarioPorId: Obtém um usuário pelo ID.
+- POST /usuario/salvar: Salva um novo usuário.
+- DELETE /usuario/deletar: Deleta um usuário.
+- GET /usuario/obtemTodos: Obtém todos os usuários.
+- GET /usuario/obtemUsuarioPorId: Obtém um usuário pelo ID.
 
 ## Segurança
 A aplicação utiliza Spring Security para gerenciar a autenticação e autorização. As senhas são criptografadas utilizando BCrypt. Tokens JWT são usados para autenticação de sessões.
