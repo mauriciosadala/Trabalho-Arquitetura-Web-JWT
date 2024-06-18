@@ -1,4 +1,4 @@
-# TRabalho Final JWT Arquitetura Aplicação WEB
+# Trabalho Final JWT Arquitetura Aplicação WEB
 ## Visão Geral
 Este projeto é uma aplicação de autenticação desenvolvida em Java utilizando o framework Spring Boot e MongoDB como banco de dados. Ele fornece serviços de autenticação e gerenciamento de usuários com diferentes níveis de permissão. O projeto também está configurado para ser executado em um contêiner Docker.
 
