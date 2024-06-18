@@ -27,8 +27,8 @@ O projeto está estruturado em diversos pacotes, cada um contendo classes com re
 
 
 
-## Início Rápido,
-- Requisitos,
+## Início Rápido
+### Requisitos
 - JDK 11+,
 - Maven,
 
